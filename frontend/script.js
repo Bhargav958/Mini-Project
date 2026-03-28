@@ -32,8 +32,6 @@ async function addNote() {
     loadNotes();
 }
 
-// Attach button event
 document.getElementById("addBtn").addEventListener("click", addNote);
 
-// Load notes on start
-loadNotes();
+loadNotes();   
