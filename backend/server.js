@@ -33,5 +33,4 @@ app.post("/notes", async (req, res) => {
     res.json(note);
 });
 
-// Server
 app.listen(5000, () => console.log("Server running"));
