@@ -1,20 +1,12 @@
-apiVersion: apps/v1
-kind: Deployment
+apiVersion: v1
+kind: Service
 metadata:
-  name: notes-app
+  name: notes-service
 spec:
-  replicas: 2
+  type: NodePort
   selector:
-    matchLabels:
-      app: notes
-  template:
-    metadata:
-      labels:
-        app: notes
-    spec:
-      containers:
-      - name: backend
-        image: notes-app
-        imagePullPolicy: Never
-        ports:
-        - containerPort: 5000
+    app: notes
+  ports:
+    - port: 5000
+      targetPort: 5000
+      nodePort: 30007
