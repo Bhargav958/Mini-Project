@@ -1,0 +1,8 @@
+[33mebf3f43[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m Again added some features in script.js file
+[33me7dc8f8[m Added Docker setup, updated backend with CORS, and fixed frontend integration
+[33m84ba6ec[m Added Docker setup, updated backend with CORS, and fixed frontend integration
+[33m73ca74f[m modified both index.html and script.js files
+[33m19f6451[m Added .gitignore to exclude node_modules
+[33mc9f10fb[m created backend folder with server.js file
+[33m5e9289e[m added the html and script code into it
+[33m89feac4[m created index and script files
